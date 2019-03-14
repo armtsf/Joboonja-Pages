@@ -1,0 +1,9 @@
+.navbar {
+	height: 60px;
+	background-color: white;
+}
+
+.navbar-brand img {
+	height: 60px;
+	width: auto;
+}
