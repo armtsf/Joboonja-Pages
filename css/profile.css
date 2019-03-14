@@ -1,4 +1,63 @@
+@font-face {
+	font-family: 'IRANSans';
+	src: url('/assets/fonts/iransans-fonts/iransans/eot/IRANSansWeb.eot') format('eot'), local('IRANSans');
+}
+
+@font-face {
+	font-family: 'Vazir';
+	src: local('Vazir');
+}
+
+* {
+	font-family: "IRANSans", "Vazir", serif;
+}
+
 #blue-bar {
 	background-color: #b9eff2;
-	min-height: 150px;
+	min-height: 220px;
+}
+
+#main {
+	background-color: #f6f6f6;
+	margin-bottom: 0;
+}
+
+#profile-pic {
+    float: right;
+	margin-top: -130px;
+	height: 285px;
+	width: 285px;
+	border-radius: 40%;
+
+	-moz-background-clip: padding;     /* Firefox 3.6 */
+	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
+	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
+
+	border: 15px solid rgba(255, 255, 255, 0.5);
+
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+
+	box-shadow: 0 0 5px -2px black;
+}
+
+#trapezoid-bg {
+	float: right;
+	margin-top: -45px;
+	border-bottom: 45px solid #7fdadf;
+	border-left: 25px solid transparent;
+	height: 0;
+	width: 180px;
+    position: relative;
+}
+
+#trapezoid-fg {
+	float: right;
+	margin-top: -45px;
+	margin-right: -15px;
+	border-bottom: 45px solid #6bc9ce;
+	border-left: 25px solid transparent;
+	height: 0;
+	width: 165px;
+    position: relative;
 }
