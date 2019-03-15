@@ -75,10 +75,8 @@ body {
 #main-text {
 	padding-top: 2rem;
 	margin-bottom: 20px;
-}
-
-#skills-row {
-	/*margin-top: 20px;*/
+	text-align: justify;
+	color: rgb(70, 70, 70);
 }
 
 .skills {
@@ -107,35 +105,39 @@ body {
 .point-box {
 	/*font-size: 14px;*/
 	text-align: center;
-	background-color: #c9eef2;
-	color: #467879;
 	width: 30px;
 	height: 30px;
 	line-height: 30px;
 	border-radius: 4px;
+	border: none;
 	display: inline-block;
-}
-
-.green-point-box {
-	text-align: center;
 	background-color: #00b800;
 	color: white;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	border-radius: 4px;
-	display: inline-block;
 }
 
-.red-point-box {
-	text-align: center;
-	background-color: #ef001c;
-	color: white;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	border-radius: 4px;
-	display: inline-block;
+.point-box.endorsable:hover span {
+	display: none;
+}
+
+.point-box.endorsable:hover:after {
+	content: '+';
+}
+
+.endorsed {
+	background-color: rgb(201, 238, 242);
+    color: rgb(70, 120, 121);
+}
+
+.deletable {
+	background-color:#EF011C;
+}
+
+.point-box.deletable:hover span {
+	display: none;
+}
+
+.point-box.deletable:hover:after {
+	content: "-";
 }
 
 .add-new-skill-box {
