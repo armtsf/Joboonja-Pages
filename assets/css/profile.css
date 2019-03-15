@@ -72,11 +72,19 @@ body {
 	color: rgb(114, 114, 114);
 }
 
-#main-text {
+#main-text-col {
 	padding-top: 2rem;
 	margin-bottom: 20px;
 	text-align: justify;
 	color: rgb(70, 70, 70);
+}
+
+#main-text {
+	text-align: justify;
+}
+
+#skills-row {
+	/*margin-top: 20px;*/
 }
 
 .skills {

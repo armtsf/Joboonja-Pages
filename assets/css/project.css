@@ -189,6 +189,7 @@ body {
 	box-shadow: 0 0 0 2px #0199A5;
 	border-radius: 4px;
     padding: 5px;
+    display: inline-block;
 }
 
 .bid-button {
@@ -200,4 +201,5 @@ body {
     border: none;
     box-shadow: 0 0 0 1px #0199A5;
 	display: inline-block;
+	margin-right: 10px;
 }
