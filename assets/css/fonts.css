@@ -46,7 +46,3 @@
 	src: url('../fonts/iransans-fonts/iransans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'), url('../fonts/iransans-fonts/iransans/woff2/IRANSansWeb.woff2') format('woff2'),
 	  url('../fonts/iransans-fonts/iransans/woff/IRANSansWeb.woff') format('woff'), url('../fonts/iransans-fonts/iransans/ttf/IRANSansWeb.ttf') format('truetype');
   }
-  
-  .body {
-	font-family: IRANSans;
-  }
