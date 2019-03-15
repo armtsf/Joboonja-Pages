@@ -1,15 +1,5 @@
-@font-face {
-	font-family: 'IRANSans';
-	src: url('/assets/fonts/iransans-fonts/iransans/eot/IRANSansWeb.eot') format('eot'), local('IRANSans');
-}
-
-@font-face {
-	font-family: 'Vazir';
-	src: local('Vazir');
-}
-
-* {
-	font-family: "IRANSans", "Vazir", serif;
+html * {
+	font-family: IRANSans;
 }
 
 html {

@@ -1,7 +1,5 @@
-html,body{
-	margin: 0;
-	padding: 0px;
-	height: 100vh;
+html * {
+	font-family: IRANSans;
 }
 
 .slider-wrapper {
@@ -46,7 +44,7 @@ html,body{
 
 .slide.slide1 {
 	left: 0%; 
-	background-image: url('../assets/pics/768.jpg');
+	background-image: url('../pics/768.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -54,7 +52,7 @@ html,body{
 
 .slide.slide2 {
 	left: 100%;
-	background-image: url('../assets/pics/769.jpg');
+	background-image: url('../pics/769.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -62,7 +60,7 @@ html,body{
 
 .slide.slide3 {
 	left: 200%;
-	background-image: url('../assets/pics/770.jpg');
+	background-image: url('../pics/768.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
   	background-size: cover;
@@ -70,10 +68,10 @@ html,body{
 
 .slide.slide4 {
 	left: 300%;
-	background-image: url('../assets/pics/771.jpg');
+	background-image: url('../pics/771.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
-  	background-size: cover;
+	background-size: cover;
 }
 
 @keyframes move-slider {
