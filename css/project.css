@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'IRANSans';
+	src: url('/assets/fonts/iransans-fonts/iransans/eot/IRANSansWeb.eot') format('eot'), local('IRANSans');
+}
+
+@font-face {
+	font-family: 'Vazir';
+	src: local('Vazir');
+}
+
+* {
+	font-family: "IRANSans", "Vazir", serif;
+}
+
 #blue-bar {
 	background-color: #b9eff2;
 	min-height: 220px;
@@ -5,8 +19,14 @@
 	margin-bottom: -75px;
 }
 
+html {
+	position: relative;
+	min-height: 100%;
+}
+
 body {
 	background-color: #aaaaaa;
+	margin-bottom: 4rem; /* Margin bottom by footer height */
 }
 
 #project-box {
@@ -47,7 +67,6 @@ body {
     text-indent: 24px;
 	font-size: 16px;
 	text-align: justify;
-	direction: rtl;
 }
 
 .title {
@@ -60,7 +79,6 @@ body {
 	margin-top: 15px;
 	font-size: 20px;
     font-weight: bold;
-	direction: rtl;
 }
 
 .deadline {
@@ -76,7 +94,6 @@ body {
 .winner {
 	color: #059142;
 	margin-bottom: 10px;
-	direction: rtl;
 }
 
 .budget {
@@ -87,7 +104,6 @@ body {
 .icon-text {
 	font-weight: bold;
 	font-size: 14px;
-	direction: rtl;
 }
 
 .skills-box {
@@ -102,39 +118,38 @@ body {
     font-size: 18px;
     margin-left: 24px;
     margin-bottom: 12px;
-	direction: rtl;
 }
 
 .skills {
 	direction: ltr;
-	text-align: left;
 	display: flex;
+    height: 100%;
 }
 
 .skill-individual {
 	background-color: #ffffff;
-	box-shadow: 0 1px 4px #000000;
-	margin-right: 20px;
+	margin-right: 15px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-	width: 150px;
-	height: 50px;
-	padding: 6px;
     border-radius: 4px;
+    white-space: nowrap;
+	direction: ltr;
+	padding: 4px 6px;
 }
 
 .skill-text {
-    font-size: 16px;
-	margin-right: 20px;
-	margin-left: 20px; 
+    /*font-size: 16px;*/
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 .point-box {
-	font-size: 14px;
+	/*font-size: 14px;*/
 	text-align: center;
 	background-color: #c9eef2;
 	color: #467879;
-	width: 35px;
-	height: 35px;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
 	border-radius: 4px;
 	display: inline-block;
 }
@@ -172,7 +187,7 @@ body {
 .bid-input {
 	box-shadow: 0 0 2px 2px #0199A5;
 	border-radius: 4px;
-	width: 350px;
+    width: 300px;
 }
 
 .bid-button {
@@ -182,4 +197,5 @@ body {
     border-radius: 6px;
     border: none;
     box-shadow: 0 0 2px 1px #0199A5;
+	display: inline-block;
 }
