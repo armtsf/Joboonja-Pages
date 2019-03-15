@@ -71,19 +71,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="add-new-skill-box">
-                    <div class="text-right" id="skills-title">مهارت‌ها:</div>
-                    <form class="text-right" id="add-skill-form" action="#" method="POST">
-                        <label>
-                            <select name="add-skill-select" id="add-skill-select">
-                                <option value="" selected disabled hidden>-- انتخاب مهارت‌ها --</option>
-                                <option value="Android" dir="ltr">Android</option>
-                                <option value="Java" dir="ltr">Java</option>
-                                <option value="Go" dir="ltr">Go</option>
-                                <option value="Rust" dir="ltr">Rust</option>
-                            </select>
-                        </label>
+                    <div id="skills-title">مهارت‌ها:</div>
+                    <form id="add-skill-form" action="#" method="POST">
+                        <select name="add-skill-select" id="add-skill-select">
+                            <option value="" selected disabled hidden>-- انتخاب مهارت‌ها --</option>
+                            <option value="Android" dir="ltr">Android</option>
+                            <option value="Java" dir="ltr">Java</option>
+                            <option value="Go" dir="ltr">Go</option>
+                            <option value="Rust" dir="ltr">Rust</option>
+                        </select>
                         <button type="submit" id="add-skill-button">افزودن مهارت</button>
                     </form>
                 </div>
@@ -107,6 +105,10 @@
                     <div class="skill-individual rounded">
                         <span class="skill-text text-center">TypeScript</span>
                         <div class="point-box"><span>2</span></div>
+                    </div>
+                    <div class="skill-individual rounded">
+                        <span class="skill-text text-center">Pascal</span>
+                        <div class="red-point-box"><span>-</span></div>
                     </div>
                 </div>
             </div>

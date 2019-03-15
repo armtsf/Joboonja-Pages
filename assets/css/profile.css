@@ -127,11 +127,22 @@ body {
 	display: inline-block;
 }
 
+.red-point-box {
+	text-align: center;
+	background-color: #ef001c;
+	color: white;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
 .add-new-skill-box {
 	display: flex;
 	justify-content: start;
 	direction: rtl;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 	align-items: center;
 }
 
@@ -157,7 +168,6 @@ body {
 	margin-left: 8px;
 	background-color: #f9f9f9;
 	border: 1px solid #eeeeee;
-	height: 100%;
 }
 
 #add-skill-button {
