@@ -4,9 +4,10 @@ html * {
 
 #blue-bar {
 	background-color: #b9eff2;
-	min-height: 220px;
+	min-height: 14rem;
 	box-shadow: inset 0 0 5px #58bcc2;
 	margin-bottom: -75px;
+	position: relative;
 }
 
 html {
@@ -19,6 +20,11 @@ body {
 	margin-bottom: 4rem; /* Margin bottom by footer height */
 }
 
+#main {
+	background-color: #f6f6f6;
+    min-height: calc(100vh - 13rem);
+}
+
 #project-box {
 	background-color: #ffffff;
 	border-radius: 4px;
@@ -29,7 +35,7 @@ body {
 
 .info-box {
 	border-bottom: 2px dashed #66dfe7;
-    height: fit-content;
+    /*height: fit-content;*/
     border-radius: 4px;
 }
 
@@ -74,7 +80,6 @@ body {
 .deadline {
 	color: #6c6c6c;
 	margin-top: 15px;
-	direction: rtl;
 }
 
 .deadline-finished {
@@ -94,6 +99,10 @@ body {
 .icon-text {
 	font-weight: bold;
 	font-size: 14px;
+	display: inline-block;
+	top: 15%;
+	-ms-transform: translateY(-15%);
+	transform: translateY(-15%);
 }
 
 .skills-box {
@@ -161,8 +170,9 @@ body {
 	margin-bottom: 20px;
 }
 
-.Tooman {
+#toman {
 	color: #0199A5;
+	float: left;
 }
 
 .already-bid {
@@ -172,20 +182,22 @@ body {
 .bid-text-box {
 	border: none;
 	color: #0199A5;
+    width: 85%;
 }
 
 .bid-input {
-	box-shadow: 0 0 2px 2px #0199A5;
+	box-shadow: 0 0 0 2px #0199A5;
 	border-radius: 4px;
-    width: 300px;
+    padding: 5px;
 }
 
 .bid-button {
+	padding: 6px;
 	background-color: #0199A5;
     color: #FFFFFF;
     font-size: 16px;
     border-radius: 6px;
     border: none;
-    box-shadow: 0 0 2px 1px #0199A5;
+    box-shadow: 0 0 0 1px #0199A5;
 	display: inline-block;
 }
