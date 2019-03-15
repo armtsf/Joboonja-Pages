@@ -1,3 +1,9 @@
+html,body{
+	margin: 0;
+	padding: 0px;
+	height: 100vh;
+}
+
 .slider-wrapper {
 	position: fixed;
 	width: 100vw;
@@ -39,23 +45,35 @@
 }
 
 .slide.slide1 {
-  	left: 0%;
+	left: 0%; 
+	background-image: url('../assets/pics/768.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .slide.slide2 {
-  	left: 100%;
+	left: 100%;
+	background-image: url('../assets/pics/769.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .slide.slide3 {
-  	left: 200%;
+	left: 200%;
+	background-image: url('../assets/pics/770.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 .slide.slide4 {
-  	left: 300%;
-}
-
-.slide.slide5 {
-  	left: 400%;
+	left: 300%;
+	background-image: url('../assets/pics/771.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 @keyframes move-slider {
@@ -110,7 +128,7 @@
 }
 
 .form-control{
-	height: 40px;
+	/* height: 40px; */
 	box-shadow: none;
 	color: #969fa4;
 }
@@ -126,7 +144,7 @@
 .signup-form{
 	width: 400px;
 	margin: 0 auto;
-	padding: 30px 0;
+	padding: 100px 0;
 	direction: rtl;
 	text-align: right;
 }
@@ -163,10 +181,6 @@
 	background: #f2f3f7;
 	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 	padding: 30px;
-}
-
-.signup-form .form-group{
-	margin-bottom: 20px;
 }
 
 .signup-form input[type="checkbox"]{
