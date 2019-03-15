@@ -14,9 +14,10 @@
 
 #blue-bar {
 	background-color: #b9eff2;
-	min-height: 220px;
+	min-height: 14rem;
 	box-shadow: inset 0 0 5px #58bcc2;
 	margin-bottom: -75px;
+	position: relative;
 }
 
 html {
@@ -27,6 +28,11 @@ html {
 body {
 	background-color: #aaaaaa;
 	margin-bottom: 4rem; /* Margin bottom by footer height */
+}
+
+#main {
+	background-color: #f6f6f6;
+    min-height: calc(100vh - 13rem);
 }
 
 #project-box {
